@@ -1,0 +1,13 @@
+.contenedor-productos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(126, 70, 70);
+  text-align: center;
+  margin: 10px;
+}

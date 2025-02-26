@@ -10,6 +10,7 @@
   position: absolute;
   top: 0;
   right: 0;
+  font-size: larger;
 }
 
 .cart-number {
@@ -17,5 +18,5 @@
   bottom: 0;
   right: 0;
   margin: 0;
-  color: rgb(243, 9, 9);
+  color: rgb(173, 84, 84);
 }

@@ -1,0 +1,32 @@
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid rgb(138, 65, 65);
+  border-radius: 10px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.card-container:hover {
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.imagen-producto {
+  width: 100%;
+  margin: 0;
+}
+
+.link-detalle,
+.link-agregaCarrito {
+  text-decoration: none;
+  color: rgb(88, 87, 87);
+  font-weight: bold;
+}
+
+.link-detalle:hover,
+.link-agregaCarrito:hover {
+  color: rgb(173, 84, 84); /* Cambia de color al pasar el mouse */
+}

@@ -1,0 +1,34 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(238, 182, 182);
+  align-items: center;
+}
+
+.categorias-style {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  text-align: center;
+}
+
+.categorias-style a {
+  text-decoration: none;
+  color: rgb(173, 84, 84);
+  font-weight: bold;
+}
+
+.categorias-style a:hover {
+  color: rgb(88, 87, 87);
+}
+
+.link-carrito {
+  text-decoration: none;
+  color: white;
+  font-size: larger;
+}
+
+.logo {
+  width: 100px;
+  margin: 5px;
+}

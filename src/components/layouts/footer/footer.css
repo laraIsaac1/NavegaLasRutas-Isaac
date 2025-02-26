@@ -1,0 +1,21 @@
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+footer {
+  margin-top: auto;
+  background-color: rgb(238, 182, 182);
+  color: rgb(173, 84, 84);
+  text-align: center;
+  width: 100%;
+}
+
+h2 {
+  font-size: large;
+}
+
+img {
+  margin: 10px;
+}
