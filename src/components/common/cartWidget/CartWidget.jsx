@@ -1,11 +1,16 @@
-import { IoMdCart } from "react-icons/io";
 import "./cartWidget.css";
+import { useContext } from "react";
+import { FaShoppingCart } from "react-icons/fa";
+import { CartContext } from "../../../context/CartContext";
 
 export const CartWidget = () => {
+  const { getTotalQuantity } = useContext(CartContext);
+  let total = getTotalQuantity();
+
   return (
-    <div className="cart-container">
-      <IoMdCart className="cart-Icon" />
-      <h3 className="cart-number">0</h3>
+    <div>
+      <FaShoppingCart />
+      <h3>{total}</h3>
     </div>
   );
 };

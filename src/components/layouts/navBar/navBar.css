@@ -10,6 +10,8 @@ nav {
   gap: 20px;
   list-style: none;
   text-align: center;
+  font-size: larger;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .categorias-style a {

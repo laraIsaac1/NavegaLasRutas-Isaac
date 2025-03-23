@@ -1,5 +1,5 @@
 export let products = [
-  {
+  /*{
     id: "1",
     titulo: "CUADRADA",
     precio: "$10.000",
@@ -9,9 +9,9 @@ export let products = [
       "https://res.cloudinary.com/dadbyb4uo/image/upload/v1740605458/cuadrada_oy85yx.png",
     stock: 9,
     categoria: "Carnes",
-  },
+  },*/
   {
-    id: "2",
+    //id: "2",
     titulo: "LOMO",
     precio: 12432,
     descripcion:
@@ -22,7 +22,7 @@ export let products = [
     categoria: "Carnes",
   },
   {
-    id: "3",
+    //id: "3",
     titulo: "ASADO",
     precio: "$12.000",
     descripcion:
@@ -33,7 +33,7 @@ export let products = [
     categoria: "Carnes",
   },
   {
-    id: "4",
+    //id: "4",
     titulo: "HAMBURGUESA CLÁSICA",
     precio: "$2200",
     descripcion: "160g. 2 unidades",
@@ -43,7 +43,7 @@ export let products = [
     categoria: "Hamburguesas",
   },
   {
-    id: "5",
+    //id: "5",
     titulo: "HAMBURGUESA PARRILLERA",
     precio: "$4000",
     descripcion: "396g. 2 unidades",
@@ -53,7 +53,7 @@ export let products = [
     categoria: "Hamburguesas",
   },
   {
-    id: "6",
+    //id: "6",
     titulo: "HAMBURGUESA GRANDE",
     precio: "$3000",
     descripcion: "220g. 2 unidades",
@@ -63,7 +63,7 @@ export let products = [
     categoria: "Hamburguesas",
   },
   {
-    id: "7",
+    //id: "7",
     titulo: "SALCHICHA CHICA",
     precio: "$2000",
     descripcion: "190g. 6 unidades",
@@ -73,7 +73,7 @@ export let products = [
     categoria: "Chacinados",
   },
   {
-    id: "8",
+    //id: "8",
     titulo: "SALCHICHA GRANDE",
     precio: "$3000",
     descripcion: "375g. 6 unidades",

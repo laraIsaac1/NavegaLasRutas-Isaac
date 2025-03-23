@@ -1,0 +1,34 @@
+.counter-container {
+  display: flex;
+  flex-direction: column; /* Organiza los elementos en columna */
+  align-items: center; /* Centra todo horizontalmente */
+  gap: 10px; /* Espacio entre los elementos */
+}
+
+.counter-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Espacio entre botones y número */
+}
+
+.counter-controls button {
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.agregar-btn {
+  margin: 10px; /* Espacio arriba del botón */
+  padding: 8px 12px;
+  background-color: rgb(138, 65, 65);
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.agregar-btn:hover {
+  background-color: rgb(238, 182, 182);
+  color: rgb(138, 65, 65);
+}

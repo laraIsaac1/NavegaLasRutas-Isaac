@@ -4,12 +4,17 @@
   min-height: 100vh;
 }
 
+.main-content {
+  flex-grow: 1;
+}
+
 footer {
-  margin-top: auto;
+  margin-top: 10px;
   background-color: rgb(238, 182, 182);
   color: rgb(173, 84, 84);
   text-align: center;
   width: 100%;
+  padding: 15px;
 }
 
 h2 {

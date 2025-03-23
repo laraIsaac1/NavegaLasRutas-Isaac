@@ -7,7 +7,7 @@
   gap: 10px;
   border: 1px solid rgb(138, 65, 65);
   border-radius: 10px;
-  transition: box-shadow 0.3s ease-in-out;
+  transition: box-shadow 0.1s ease-in-out;
 }
 
 .card-container:hover {
@@ -19,14 +19,13 @@
   margin: 0;
 }
 
-.link-detalle,
-.link-agregaCarrito {
+.link-detalle {
   text-decoration: none;
-  color: rgb(88, 87, 87);
+  color: rgb(121, 120, 120);
   font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.link-detalle:hover,
-.link-agregaCarrito:hover {
-  color: rgb(173, 84, 84); /* Cambia de color al pasar el mouse */
+.link-detalle:hover {
+  color: rgb(238, 182, 182); /* Cambia de color al pasar el mouse */
 }
